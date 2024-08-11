@@ -1,5 +1,5 @@
 import React from "react";
-import { LanguageSwitcher } from "./languageSwitcher";
+import { LanguageSwitcher } from './languageSwitcher'
 
 export const Header = (props) => {
   return (
@@ -11,10 +11,10 @@ export const Header = (props) => {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1>
-                  {props.data ? props.data.title : "Loading"}
+                  Я покакал сочно.
                   <span></span>
                 </h1>
-                <LanguageSwitcher/>
+                
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <a
                   href="#features"

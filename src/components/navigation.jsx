@@ -1,10 +1,12 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
+import { LanguageSwitcher } from "./languageSwitcher";
 export const Navigation = (props) => {
   const { t } = useTranslation();
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
+        
         <div className="navbar-header">
           <button
             type="button"
@@ -22,7 +24,7 @@ export const Navigation = (props) => {
             {t('Navigator.title')}
           </a>{" "}
         </div>
-
+        <LanguageSwitcher/>
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"

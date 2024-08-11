@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import i18n from 'i18next';
+import { FaGlobe } from 'react-icons/fa';
+import './LanguageSwitcher.css';
 
 const languages = [
-  { code: 'en', label: 'English' },
-  { code: 'ru', label: 'Русский' },
-  { code: 'pl', label: 'Polski' },
-  { code: 'br', label: 'Беларускі' }
+  { code: 'en', label: 'EN' },
+  { code: 'ru', label: 'RU' },
+  { code: 'pl', label: 'PL' },
+  { code: 'br', label: 'BR'}
 ];
 
 export const LanguageSwitcher = () => {
   const [currentLanguage, setCurrentLanguage] = useState(i18n.language);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleLanguageChange = (lng) => setCurrentLanguage(lng);
@@ -23,26 +26,27 @@ export const LanguageSwitcher = () => {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+    setIsOpen(false);
   };
 
   return (
-    <div className="language-switcher">
-      {languages.map(({ code, label }) => (
-        <button
-          key={code}
-          onClick={() => changeLanguage(code)}
-          style={{
-            margin: '5px',
-            padding: '10px',
-            backgroundColor: currentLanguage === code ? 'lightblue' : 'white',
-            border: currentLanguage === code ? '2px solid blue' : '1px solid #ccc',
-            borderRadius: '5px',
-            cursor: 'pointer'
-          }}
-        >
-          {label}
-        </button>
-      ))}
+    <div className={`language-banner ${isOpen ? 'open' : 'closed'}`}>
+      <button className="toggle-button" onClick={() => setIsOpen(!isOpen)}>
+        <FaGlobe />
+      </button>
+      {isOpen && (
+        <div className="language-buttons">
+          {languages.map(({ code, label }) => (
+            <button
+              key={code}
+              onClick={() => changeLanguage(code)}
+              className={currentLanguage === code ? 'active' : ''}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 };

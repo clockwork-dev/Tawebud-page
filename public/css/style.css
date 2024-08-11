@@ -244,6 +244,37 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+.language-switcher {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.language-switcher button {
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+}
+
+.language-switcher button.active {
+  background-color: #4a36cd;
+  border: 2px solid #600dad;
+  color: #f6f6f6
+}
+
+.language-switcher button:hover {
+  transform: scale(1.05);
+  background-color: #405be1;
+}
 /* Features Section */
 #features {
   background: #f6f6f6;
