@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useTranslation } from 'react-i18next';
 export const Navigation = (props) => {
+  const { t } = useTranslation();
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -18,7 +19,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            {t('Navigator.title')}
           </a>{" "}
         </div>
 
@@ -29,37 +30,37 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Features
+              {t('Navigator.Features')}
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+              {t('Navigator.About')}
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+              {t('Navigator.Services')}
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+              {t('Navigator.Gallery')}
               </a>
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+              {t('Navigator.Feedback')}
               </a>
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                Team
+              {t('Navigator.Team')}
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+              {t('Navigator.Contact')}
               </a>
             </li>
           </ul>

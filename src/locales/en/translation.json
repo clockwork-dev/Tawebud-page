@@ -1,0 +1,32 @@
+{
+    "Header": {
+      "title": "We are a Landing Page",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "About": {
+      "paragraph": "This is the About section.",
+      "Why": [
+        "High quality",
+        "Affordable prices",
+        "Professional team",
+        "Great support"
+      ],
+      "Why2": [
+        "Fast delivery",
+        "Customer satisfaction",
+        "Experienced professionals",
+        "Innovative solutions"
+      ]
+    },
+    "Navigator": {
+        "title": "Tawebud",
+        "Features": "Features",
+        "About": "About",
+        "Services": "Services",
+        "Gallery": "Gallery",
+        "Feedback": "Feedback",
+        "Team": "Team",
+        "Contact": "Contact"
+    }
+  }
+  
