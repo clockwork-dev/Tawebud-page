@@ -203,17 +203,34 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
-/* Header Section */
 .intro {
   display: table;
   width: 100%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  background-attachment: fixed; /* Это создает эффект параллакса */
+  background-position: center; /* Центрирует изображение */
+  height: 100vh; /* Устанавливает высоту на весь экран */
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон для лучшего контраста текста */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text {
+  color: #fff;
+  text-align: center;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -226,6 +243,8 @@ a:focus,
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
+  border-bottom: #333 2px solid;
+  border-radius: 15px;
 }
 .intro h1 span {
   font-weight: 800;

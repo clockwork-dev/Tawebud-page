@@ -1,5 +1,4 @@
 import React from "react";
-import { LanguageSwitcher } from './languageSwitcher'
 import { useTranslation } from "react-i18next";
 
 export const Header = (props) => {
@@ -22,7 +21,7 @@ export const Header = (props) => {
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  
+                  {t('Header.btn')}
                 </a>{" "}
               </div>
             </div>
