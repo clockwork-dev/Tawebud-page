@@ -1,23 +1,35 @@
 {
     "Header": {
-      "title": "We are a Landing Page",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  "title": "Tawebud",
+  "paragraph": "We build with precision, we design with soul",
+  "btn": "Learn more"
+},
+"About": {
+  "title": "",
+  "paragraph": "Why should you choose us?",
+  "Why": [
+    {
+      "title": "High quality",
+      "description": "We ensure high-quality work thanks to our experience and qualified team."
     },
-    "About": {
-      "paragraph": "This is the About section.",
-      "Why": [
-        "High quality",
-        "Affordable prices",
-        "Professional team",
-        "Great support"
-      ],
-      "Why2": [
-        "Fast delivery",
-        "Customer satisfaction",
-        "Experienced professionals",
-        "Innovative solutions"
-      ]
+    {
+      "title": "Competitive prices",
+      "description": "Our prices are affordable and competitive in the market."
     },
+    {
+      "title": "Reliability and responsibility",
+      "description": "We meet all commitments on time and in accordance with all agreements. Your project is in reliable hands, and you can be confident in its successful completion."
+    },
+    {
+      "title": "Support and quick contact",
+      "description": "We take pride in our openness and accessibility. Our team is always ready to promptly answer your questions and provide the necessary support. We value your time and ensure quick and convenient contact at all stages of the work."
+    },
+    {
+      "title": "Legal employment",
+      "description": "We guarantee full compliance with all legal norms and requirements. Our employees are officially employed, and all necessary documents and permits are processed in accordance with the legislation."
+    }
+  ]
+  },
     "Navigator": {
         "title": "Tawebud",
         "Features": "Features",
@@ -27,6 +39,42 @@
         "Feedback": "Feedback",
         "Team": "Team",
         "Contact": "Contact"
+    },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
+    "collapse": "Collapse",
+    "close": "Close",
+    "list": {
+      "concretePouring": {
+        "title": "Concrete Pouring",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : "./img/portfolio/concretePouring.jpg"
+      }
     }
+  },
+  "contact": {
+    "getInTouchTitle": "Get In Touch",
+    "getInTouchDescription": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "sendMessageButton": "Send Message",
+    "contactInfoTitle": "Contact Info",
+    "addressLabel": "Address",
+    "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk",
+    "phoneLabel": "Phone",
+    "phone1": "+48 512 567 625",
+    "pavel": "Pavel Veider (prezes)",
+    "phone2": "+48 510 075 297",
+    "artiom": "Artiom (członek zarządu)",
+    "emailLabel": "Email",
+    "email": "tawebudpl@gmail.com",
+    "hoursLabel": "Working Hours",
+    "hours": "Pn-Pt: 09:00-17:00 / Mon-Fri: 09:00-17:00 / Пн-Пт: 09:00-17:00",
+    "designBy": "Design by"
+  },
+  "loading": "Loading..."
   }
   

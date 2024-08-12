@@ -1,4 +1,34 @@
 {
+    "Header": {
+  "title": "Tawebud",
+  "paragraph": "Будуем з дакладнасцю, афармляем з душой",
+      "btn": "Learn more"
+},
+"About": {
+  "paragraph": "Чаму трэба выбраць нас?",
+  "Why": [
+    {
+      "title": "Высокая якасць",
+      "description": "Мы забяспечваем высокую якасць працы дзякуючы нашаму досведу і кваліфікаванай камандзе."
+    },
+    {
+      "title": "Канкурэнтаздольныя цэны",
+      "description": "Нашы цэны даступныя і канкурэнтаздольныя на рынку."
+    },
+    {
+      "title": "Надзейнасць і адказнасць",
+      "description": "Мы выконваем усе абавязацельствы ў тэрмін і з выкананнем усіх дамоўленасцей. Ваш праект знаходзіцца ў надзейных руках, і вы можаце быць упэўнены ў яго паспяховым завяршэнні."
+    },
+    {
+      "title": "Падтрымка і хуткі кантакт",
+      "description": "Мы ганарымся нашай адкрытасцю і даступнасцю. Наша каманда заўсёды гатова аператыўна адказаць на вашы пытанні і забяспечыць неабходную падтрымку. Мы цэнім ваш час і забяспечваем хуткі і зручны кантакт на ўсіх этапах працы."
+    },
+    {
+      "title": "Легальнае працоўнае афармленне",
+      "description": "Мы гарантуем поўнае выкананне ўсіх юрыдычных норм і патрабаванняў. Нашы супрацоўнікі аформлены легальна, а ўсе неабходныя дакументы і дазволы афармляюцца ў адпаведнасці з заканадаўствам."
+    }
+  ]
+},
     "Navigator": {
         "title": "Tawebud",
         "Features": "Асаблівасці",
@@ -8,5 +38,41 @@
         "Feedback": "Агледзіны",
         "Team": "Каманда",
         "Contact": "Кантакты"
+    },
+    "contact": {
+    "getInTouchTitle": "Звяжыцеся з намі",
+    "getInTouchDescription": "Калі ласка, запоўніце форму ніжэй, каб адправіць нам электронную пошту, і мы звяжамся з вамі як мага хутчэй.",
+    "namePlaceholder": "Імя",
+    "emailPlaceholder": "Электронная пошта",
+    "messagePlaceholder": "Паведамленне",
+    "sendMessageButton": "Адправіць паведамленне",
+    "contactInfoTitle": "Кантактная інфармацыя",
+    "addressLabel": "Адрас",
+    "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk",
+    "phoneLabel": "Тэлефон",
+    "phone1": "+48 512 567 625",
+    "pavel": "Павел Вайдэр (старшыня)",
+    "phone2": "+48 510 075 297",
+    "artiom": "Арцём (член праўлення)",
+    "emailLabel": "Электронная пошта",
+    "email": "tawebudpl@gmail.com",
+    "hoursLabel": "Гадзіны працы",
+    "hours": "Пн-Пт: 09:00-17:00",
+    "designBy": "Дызайн ад"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
+    "collapse": "Collapse",
+    "close": "Close",
+    "list": {
+      "concretePouring": {
+        "title": "Concrete Pouring",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : "./img/portfolio/concretePouring.jpg"
+      }
     }
+  },
+  "loading": "Загрузка..."
 }

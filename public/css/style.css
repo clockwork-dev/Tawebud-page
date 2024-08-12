@@ -382,6 +382,27 @@ header .intro-text {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
+.gallery-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gallery-item.expanded {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.gallery-item h3 {
+  margin-top: 0;
+}
+
+.gallery-item p {
+  margin: 10px 0;
+}
+
 #portfolio {
   padding: 100px 0;
 }

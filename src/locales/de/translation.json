@@ -1,0 +1,79 @@
+{
+    "Header": {
+      "title": "Tawebud",
+      "paragraph": "Mit präziser Konstruktion, Gestaltung mit Herz",
+      "btn": "Learn more"
+    },
+    "About": {
+  "paragraph": "Warum sollten Sie uns wählen?",
+  "Why": [
+    {
+      "title": "Hohe Qualität",
+      "description": "Wir gewährleisten hohe Qualität der Arbeit durch unsere Erfahrung und qualifiziertes Team."
+    },
+    {
+      "title": "Wettbewerbsfähige Preise",
+      "description": "Unsere Preise sind erschwinglich und wettbewerbsfähig auf dem Markt."
+    },
+    {
+      "title": "Zuverlässigkeit und Verantwortung",
+      "description": "Wir erfüllen alle Verpflichtungen pünktlich und gemäß allen Vereinbarungen. Ihr Projekt ist in sicheren Händen, und Sie können sich auf einen erfolgreichen Abschluss verlassen."
+    },
+    {
+      "title": "Unterstützung und schneller Kontakt",
+      "description": "Wir sind stolz auf unsere Offenheit und Zugänglichkeit. Unser Team ist immer bereit, schnell auf Ihre Fragen zu antworten und die notwendige Unterstützung zu bieten. Wir schätzen Ihre Zeit und gewährleisten einen schnellen und bequemen Kontakt in allen Phasen der Arbeit."
+    },
+    {
+      "title": "Legale Beschäftigung",
+      "description": "Wir garantieren die vollständige Einhaltung aller rechtlichen Normen und Anforderungen. Unsere Mitarbeiter sind offiziell beschäftigt, und alle notwendigen Dokumente und Genehmigungen werden gemäß der Gesetzgebung bearbeitet."
+    }
+  ]
+},
+    "Navigator": {
+        "title": "Tawebud",
+        "Features": "Features",
+        "About": "About",
+        "Services": "Services",
+        "Gallery": "Gallery",
+        "Feedback": "Feedback",
+        "Team": "Team",
+        "Contact": "Contact"
+    },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
+    "collapse": "Collapse",
+    "close": "Close",
+    "list": {
+      "concretePouring": {
+        "title": "Concrete Pouring",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : "./img/portfolio/concretePouring.jpg"
+      }
+    }
+  },
+  "contact": {
+    "getInTouchTitle": "Kontakt aufnehmen",
+    "getInTouchDescription": "Bitte füllen Sie das untenstehende Formular aus, um uns eine E-Mail zu senden. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "E-Mail",
+    "messagePlaceholder": "Nachricht",
+    "sendMessageButton": "Nachricht senden",
+    "contactInfoTitle": "Kontaktinformation",
+    "addressLabel": "Adresse",
+    "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk / Adresse: Straße Bernarda Milskiego 1/30, 80-890 Danzig",
+    "phoneLabel": "Telefon",
+    "phone1": "+48 512 567 625",
+    "pavel": "Pavel Veider (Vorsitzender)",
+    "phone2": "+48 510 075 297",
+    "artiom": "Artiom (Vorstandsmitglied)",
+    "emailLabel": "E-Mail",
+    "email": "tawebudpl@gmail.com",
+    "hoursLabel": "Öffnungszeiten",
+    "hours": "Mo-Fr: 09:00-17:00",
+    "designBy": "Design von"
+  },
+  "loading": "Laden..."
+  }
+  

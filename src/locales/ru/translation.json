@@ -1,21 +1,32 @@
 {
     "Header": {
-      "title": "Мы - Лендинг",
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "title": "Tawebud",
+      "paragraph": "Строим с точностью, оформляем с душой",
+      "btn": "Learn more"
     },
     "About": {
-      "paragraph": "Это раздел О нас.",
+      "paragraph": "Почему нужно выбрать нас?",
       "Why": [
-        "Высокое качество",
-        "Доступные цены",
-        "Профессиональная команда",
-        "Отличная поддержка"
-      ],
-      "Why2": [
-        "Быстрая доставка",
-        "Удовлетворение клиентов",
-        "Опытные профессионалы",
-        "Инновационные решения"
+        {
+          "title": "Высокое качество",
+          "description": "Мы обеспечиваем высокое качество работ благодаря нашему опыту и квалифицированной команде."
+        },
+        {
+          "title": "Конкурентные цены",
+          "description": "Наши цены доступны и конкурентоспособны на рынке."
+        },
+        {
+          "title": "Надежность и ответственность",
+          "description": "Мы выполняем все обязательства в срок и с соблюдением всех договоренностей. Ваш проект находится в надежных руках, и вы можете быть уверены в его успешном завершении."
+        },
+        {
+          "title": "Поддержка и быстрый контакт:",
+          "description": " Мы гордимся нашей открытостью и доступностью. Наша команда всегда готова оперативно ответить на ваши вопросы и предоставить необходимую поддержку. Мы ценим ваше время и обеспечиваем быстрый и удобный контакт на всех этапах работы."
+        },
+        {
+          "title": "Легальное трудоустройство",
+          "description": "Мы гарантируем полное соблюдение всех юридических норм и требований. Наши сотрудники официально трудоустроены, а все необходимые документы и разрешения оформляются в соответствии с законодательством."
+        }
       ]
     },
     "Navigator": {
@@ -27,6 +38,42 @@
     "Feedback": "Отзывы",
     "Team": "Команда",
     "Contact": "Контакты"
+    },
+    "contact": {
+    "getInTouchTitle": "Свяжитесь с нами",
+    "getInTouchDescription": "Пожалуйста, заполните форму ниже, чтобы отправить нам сообщение. Мы свяжемся с вами как можно скорее.",
+    "namePlaceholder": "Имя",
+    "emailPlaceholder": "Электронная почта",
+    "messagePlaceholder": "Сообщение",
+    "sendMessageButton": "Отправить сообщение",
+    "contactInfoTitle": "Контактная информация",
+    "addressLabel": "Адрес",
+    "address": "ул. Бернарда Мильского 1/30, 80-809 Гданьск",
+    "phoneLabel": "Телефон",
+    "phone1": "+48 512 567 625",
+    "pavel": "Павел (председатель)",
+    "phone2": "+48 510 075 297",
+    "artiom": "Артем (член правления)",
+    "emailLabel": "Электронная почта",
+    "email": "tawebudpl@gmail.com",
+    "hoursLabel": "Часы работы",
+    "hours": "Пн-Пт: 09:00-17:00",
+    "designBy": "Дизайн от"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
+    "collapse": "Collapse",
+    "close": "Close",
+    "list": {
+      "concretePouring": {
+        "title": "Concrete Pouring",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : "./img/portfolio/concretePouring.jpg"
+      }
     }
+  },
+  "loading": "Загрузка..."
   }
   

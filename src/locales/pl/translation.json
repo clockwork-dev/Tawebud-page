@@ -1,12 +1,78 @@
 {
+    "Header": {
+        "title": "Tawebud",
+        "paragraph": "Z precyzyjną konstrukcją, projektujemy z sercem",
+        "btn": "Learn more"
+},
+"About": {
+  "paragraph": "Dlaczego warto nas wybrać?",
+  "Why": [
+    {
+      "title": "Wysoka jakość",
+      "description": "Zapewniamy wysoką jakość pracy dzięki naszemu doświadczeniu i wykwalifikowanemu zespołowi."
+    },
+    {
+      "title": "Konkurencyjne ceny",
+      "description": "Nasze ceny są przystępne i konkurencyjne na rynku."
+    },
+    {
+      "title": "Niezawodność i odpowiedzialność",
+      "description": "Spełniamy wszystkie zobowiązania na czas i zgodnie z umową. Twój projekt jest w dobrych rękach, a Ty możesz być pewny jego pomyślnego zakończenia."
+    },
+    {
+      "title": "Wsparcie i szybki kontakt",
+      "description": "Jesteśmy dumni z naszej otwartości i dostępności. Nasz zespół jest zawsze gotowy, by szybko odpowiedzieć na Twoje pytania i zapewnić potrzebne wsparcie. Cenimy Twój czas i zapewniamy szybki i wygodny kontakt na każdym etapie pracy."
+    },
+    {
+      "title": "Legalne zatrudnienie",
+      "description": "Gwarantujemy pełne przestrzeganie wszystkich norm i wymogów prawnych. Nasi pracownicy są legalnie zatrudnieni, a wszystkie niezbędne dokumenty i pozwolenia są zgodne z przepisami."
+    }
+  ]
+},
     "Navigator": {
-    "title": "Tawebud",
-    "Features": "Funkcje",
-    "About": "O nas",
-    "Services": "Usługi",
-    "Gallery": "Galeria",
-    "Feedback": "Opinie",
-    "Team": "Zespół",
-    "Contact": "Kontakt"
-}
+        "title": "Tawebud",
+        "Features": "Funkcje",
+        "About": "O nas",
+        "Services": "Usługi",
+        "Gallery": "Galeria",
+        "Feedback": "Opinie",
+        "Team": "Zespół",
+        "Contact": "Kontakt"
+},
+"contact": {
+    "getInTouchTitle": "Skontaktuj się",
+    "getInTouchDescription": "Proszę wypełnić poniższy formularz, aby wysłać do nas wiadomość e-mail, a my skontaktujemy się z Państwem tak szybko, jak to możliwe.",
+    "namePlaceholder": "Imię",
+    "emailPlaceholder": "E-mail",
+    "messagePlaceholder": "Wiadomość",
+    "sendMessageButton": "Wyślij wiadomość",
+    "contactInfoTitle": "Informacje kontaktowe",
+    "addressLabel": "Adres",
+    "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk",
+    "phoneLabel": "Telefon",
+    "phone1": "+48 512 567 625",
+    "pavel": "Pavel Veider (prezes)",
+    "phone2": "+48 510 075 297",
+    "artiom": "Artiom (członek zarządu)",
+    "emailLabel": "E-mail",
+    "email": "tawebudpl@gmail.com",
+    "hoursLabel": "Godziny pracy",
+    "hours": "Pn-Pt: 09:00-17:00",
+    "designBy": "Projekt: "
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
+    "collapse": "Collapse",
+    "close": "Close",
+    "list": {
+      "concretePouring": {
+        "title": "Concrete Pouring",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : "./img/portfolio/concretePouring.jpg"
+      }
+    }
+  },
+  "loading": "Ładowanie..."
 }
