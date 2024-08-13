@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Tawebud-page/static/css/main.92e2237c.css",
-    "main.js": "/Tawebud-page/static/js/main.2d362d72.js",
-    "index.html": "/Tawebud-page/index.html",
-    "main.92e2237c.css.map": "/Tawebud-page/static/css/main.92e2237c.css.map",
-    "main.2d362d72.js.map": "/Tawebud-page/static/js/main.2d362d72.js.map"
+    "main.css": "/Tawebud-page/index.html/static/css/main.92e2237c.css",
+    "main.js": "/Tawebud-page/index.html/static/js/main.2d362d72.js",
+    "index.html": "/Tawebud-page/index.html/index.html",
+    "main.92e2237c.css.map": "/Tawebud-page/index.html/static/css/main.92e2237c.css.map",
+    "main.2d362d72.js.map": "/Tawebud-page/index.html/static/js/main.2d362d72.js.map"
   },
   "entrypoints": [
     "static/css/main.92e2237c.css",
