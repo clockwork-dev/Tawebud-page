@@ -11,6 +11,7 @@ const initialState = {
 
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const [buttonDisabled, setButtonDisabled] = useState(false);
   const { t } = useTranslation();
 
   const handleChange = (e) => {
@@ -25,14 +26,16 @@ export const Contact = (props) => {
     console.log(name, email, message);
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_s4pq0c7", "template_kau5z3y", e.target, "PrgIFPpcCry4p7y-b")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
+          setTimeout(() => setButtonDisabled(false), 10000); // Включаем кнопку через 10 секунд
         },
         (error) => {
           console.log(error.text);
+          setButtonDisabled(false); // Включаем кнопку, если произошла ошибка
         }
       );
   };

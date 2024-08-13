@@ -71,6 +71,42 @@
         "shortDescription": "We offer high-quality concrete pouring services.",
         "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
         "image" : "./img/portfolio/concretePouring.jpg"
+      },
+      "service2": {
+        "title": "TextTextText",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : ["./img/portfolio/concretePouring.jpg", "./img/portfolio/02-large.jpg"]
+      },
+      "service3": {
+        "title": "TextTextText",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : ["./img/portfolio/concretePouring.jpg"]
+      },
+      "service4": {
+        "title": "TextTextText",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : ["./img/portfolio/concretePouring.jpg"]
+      },
+      "service5": {
+        "title": "TextTextText",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : ["./img/portfolio/concretePouring.jpg"]
+      },
+      "service6": {
+        "title": "TextTextText",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : ["./img/portfolio/concretePouring.jpg"]
+      },
+      "service7": {
+        "title": "TextTextText",
+        "shortDescription": "We offer high-quality concrete pouring services.",
+        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+        "image" : ["./img/portfolio/concretePouring.jpg"]
       }
     }
   },

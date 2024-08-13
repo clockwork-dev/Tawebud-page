@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { dataImg } from '../data/data.json';
+
 
 export const Gallery = () => {
   const [expandedWork, setExpandedWork] = useState(null);
@@ -29,7 +29,7 @@ export const Gallery = () => {
             serviceKeys.map((workKey, i) => (
               <div
                 key={workKey}
-                className={`col-sm-6 col-md-4 col-lg-4`}
+                className="col-sm-6 col-md-4 col-lg-4"
               >
                 <div
                   className="gallery-item"
@@ -60,55 +60,32 @@ export const Gallery = () => {
         </div>
       </div>
 
-      {/* Модальное окно для подробной информации */}
       {expandedWork && (
         <div
-          className="modal-overlay"
+          className={`modal-overlay ${!expandedWork ? "hidden" : ""}`}
           onClick={handleCloseModal}
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            backgroundColor: "rgba(0, 0, 0, 0.5)",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            overflowY: "auto",
-            zIndex: 1000,
-          }}
         >
-        <div
-          className="modal-content"
-          onClick={(e) => e.stopPropagation()}
-          style={{
-            backgroundColor: "#fff",
-            padding: "20px",
-            borderRadius: "8px",
-            width: "80%",
-            maxWidth: "800px",
-            maxHeight: "80vh",  // Ограничиваем высоту модального окна до 90% от высоты окна браузера.
-            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)",
-            overflowY: "auto",  // Добавляем прокрутку внутри модального окна, если содержимое превышает высоту.
-            position: "relative",
-          }}
-        >
+          <div
+            className="modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
             <h3 style={{ marginBottom: "15px" }}>
               {t(`services.list.${expandedWork}.title`)}
             </h3>
             <div style={{ marginBottom: "15px" }}>
-              {/* Место под изображение */}
-              <img
-                src={t(`services.list.${expandedWork}.image`)} // Замените на актуальный путь к изображению
-                alt={t(`services.list.${expandedWork}.title`)}
-                style={{
-                  width: "100%",
-                  height: "auto",
-                  marginBottom: "15px",
-                  borderRadius: "8px",
-                }}
-              />
+            {t(`services.list.${expandedWork}.image`, { returnObjects: true }).map((image, index) => (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`${t(`services.list.${expandedWork}.title`)} - ${index + 1}`}
+                  style={{
+                    width: "100%",
+                    height: "auto",
+                    marginBottom: "15px",
+                    borderRadius: "8px",
+                  }}
+                />
+              ))}
             </div>
             <p style={{ marginBottom: "15px" }}>
               {t(`services.list.${expandedWork}.fullDescription`)}
