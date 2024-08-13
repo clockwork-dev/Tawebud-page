@@ -102,13 +102,13 @@
     "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk",
     "phoneLabel": "Phone",
     "phone1": "+48 512 567 625",
-    "pavel": "Pavel Veider (prezes)",
+    "pavel": "Pavel (prezes)",
     "phone2": "+48 510 075 297",
     "artiom": "Artiom (członek zarządu)",
     "emailLabel": "Email",
     "email": "tawebudpl@gmail.com",
     "hoursLabel": "Working Hours",
-    "hours": "Pn-Pt: 09:00-17:00 / Mon-Fri: 09:00-17:00 / Пн-Пт: 09:00-17:00",
+    "hours": "Mon-Fri: 09:00-17:00",
     "designBy": "Design by"
   },
   "loading": "Loading..."
