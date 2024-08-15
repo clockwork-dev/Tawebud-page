@@ -36,14 +36,36 @@ export const Contact = (props) => {
         (result) => {
           console.log(result.text);
           clearState();
+          showNotification(t('contact.successMessage'), 'success');
           setTimeout(() => setButtonDisabled(false), 10000); // Включаем кнопку через 10 секунд
         },
         (error) => {
           console.log(error.text);
+          showNotification(t('contact.errorMessage'), 'error');
           setButtonDisabled(false); // Включаем кнопку, если произошла ошибка
         }
       );
   };
+ // Function to request notification permissions
+ const requestNotificationPermission = () => {
+  if (Notification.permission !== "granted") {
+    Notification.requestPermission();
+  }
+};
+
+// Function to show notifications
+const showNotification = (message, type) => {
+  if (Notification.permission === "granted") {
+    new Notification(message, {
+      body: type === 'success' ? t('contact.successMessage') : t('contact.errorMessage'),
+      icon: '/path/to/icon.png', // Optional: path to an icon image
+    });
+  }
+};
+
+  React.useEffect(() => {
+    requestNotificationPermission();
+  }, []);
 
   return (
     <div>
@@ -56,7 +78,7 @@ export const Contact = (props) => {
                   src={Logo} 
                   alt="Logo" 
                   style={{ height: "96px", marginBottom: "20px" }} 
-                /> {/* Логотип добавлен */}
+                />
                 <h2>{t("contact.getInTouchTitle")}</h2>
                 <p>{t("contact.getInTouchDescription")}</p>
               </div>
@@ -123,7 +145,7 @@ export const Contact = (props) => {
                 <button 
                   type="submit" 
                   className="btn btn-custom btn-lg" 
-                  disabled={!isAgreed}
+                  disabled={!isAgreed || buttonDisabled}
                 >
                   {t("contact.sendMessageButton")}
                 </button>
@@ -131,7 +153,7 @@ export const Contact = (props) => {
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
-            {/* Информация о контактах без изменений */}
+            {/* Contact information */}
             <div className="contact-item">
               <h3>{t("contact.contactInfoTitle")}</h3>
               <p>

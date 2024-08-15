@@ -59,7 +59,9 @@
     "hoursLabel": "Godziny pracy",
     "hours": "Pn-Pt: 09:00-17:00",
     "designBy": "Projekt: ",
-    "agreementText" : "Zapoznałem/Zapoznałam się z polityką prywatności i warażam zgodę na przetwarzanie moich danych osobowych zgodie z jej postanowieniami."
+    "agreementText" : "Zapoznałem/Zapoznałam się z polityką prywatności i warażam zgodę na przetwarzanie moich danych osobowych zgodie z jej postanowieniami.",
+    "successMessage" : "Email successfully sent.",
+    "errorMessage" : "Error when trying to send an e-mail."
   },
   "services": {
     "title": "Our Services",

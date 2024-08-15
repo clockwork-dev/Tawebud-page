@@ -59,7 +59,9 @@
     "hoursLabel": "Гадзіны працы",
     "hours": "Пн-Пт: 09:00-17:00",
     "designBy": "Дызайн ад",
-    "agreementText" : "Я азнаёмлены з палітыкай канфідэнцыяльнасці і згаджаюся на апрацоўку маіх асабістых дадзеных у адпаведнасці з яе ўмовамі."
+    "agreementText" : "Я азнаёмлены з палітыкай канфідэнцыяльнасці і згаджаюся на апрацоўку маіх асабістых дадзеных у адпаведнасці з яе ўмовамі.",
+    "successMessage" : "Email successfully sent.",
+    "errorMessage" : "Error when trying to send an e-mail."
   },
   "services": {
     "title": "Our Services",

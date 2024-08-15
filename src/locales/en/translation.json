@@ -110,7 +110,9 @@
     "hoursLabel": "Working Hours",
     "hours": "Mon-Fri: 09:00-17:00",
     "designBy": "Design by",
-    "agreementText" : "I have read the privacy policy and agree to the processing of my personal data in accordance with its provisions."
+    "agreementText" : "I have read the privacy policy and agree to the processing of my personal data in accordance with its provisions.",
+    "successMessage" : "Email successfully sent.",
+    "errorMessage" : "Error when trying to send an e-mail."
   },
   "loading": "Loading..."
   }
