@@ -58,7 +58,8 @@
     "email": "tawebudpl@gmail.com",
     "hoursLabel": "Godziny pracy",
     "hours": "Pn-Pt: 09:00-17:00",
-    "designBy": "Projekt: "
+    "designBy": "Projekt: ",
+    "agreementText" : "Zapoznałem/Zapoznałam się z polityką prywatności i warażam zgodę na przetwarzanie moich danych osobowych zgodie z jej postanowieniami."
   },
   "services": {
     "title": "Our Services",

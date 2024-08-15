@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 import { useTranslation } from "react-i18next";
+import Logo from "../logo.svg"
 
 const initialState = {
   name: "",
@@ -10,17 +11,21 @@ const initialState = {
 };
 
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ name, email, message, isAgreed }, setState] = useState(initialState);
   const [buttonDisabled, setButtonDisabled] = useState(false);
   const { t } = useTranslation();
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    const { name, value, type, checked } = e.target;
+    setState((prevState) => ({
+      ...prevState,
+      [name]: type === "checkbox" ? checked : value,
+    }));
   };
 
-  const clearState = () => setState({ ...initialState });
 
+  const clearState = () => setState({ ...initialState });
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
@@ -47,6 +52,11 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
+                <img 
+                  src={Logo} 
+                  alt="Logo" 
+                  style={{ height: "96px", marginBottom: "20px" }} 
+                /> {/* Логотип добавлен */}
                 <h2>{t("contact.getInTouchTitle")}</h2>
                 <p>{t("contact.getInTouchDescription")}</p>
               </div>
@@ -93,14 +103,35 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
+                <div className="form-group">
+                  <input 
+                    type="checkbox" 
+                    id="agreement" 
+                    name="isAgreed" 
+                    checked={isAgreed} 
+                    onChange={handleChange} 
+                    required
+                  />
+                  <label htmlFor="agreement">
+                    {t("contact.agreementText")}{" "}
+                    <a href="https://praca.unibep.pl/polityka-prywatnosci/" target="_blank" style={{color: "#fff"}}>
+                      <b>"Polityka-prywatnosci"</b>
+                    </a>
+                  </label>
+                </div>
                 <div id="success"></div>
-                <button type="submit" className="btn btn-custom btn-lg">
+                <button 
+                  type="submit" 
+                  className="btn btn-custom btn-lg" 
+                  disabled={!isAgreed}
+                >
                   {t("contact.sendMessageButton")}
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
+            {/* Информация о контактах без изменений */}
             <div className="contact-item">
               <h3>{t("contact.contactInfoTitle")}</h3>
               <p>
@@ -164,7 +195,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 {t("contact.designBy")}{" "}
+            &copy; 2024 {t("contact.designBy")}{" "}
             <a href="#0" rel="nofollow">
               Rodion Prysenko
             </a>

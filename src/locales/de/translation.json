@@ -108,7 +108,8 @@
     "email": "tawebudpl@gmail.com",
     "hoursLabel": "Öffnungszeiten",
     "hours": "Mo-Fr: 09:00-17:00",
-    "designBy": "Design von"
+    "designBy": "Design von",
+    "agreementText" : "Ich habe die Datenschutzerklärung gelesen und bin mit der Verarbeitung meiner personenbezogenen Daten gemäß den darin enthaltenen Bestimmungen einverstanden."
   },
   "loading": "Laden..."
   }
