@@ -60,8 +60,8 @@
     "hours": "Пн-Пт: 09:00-17:00",
     "designBy": "Дызайн ад",
     "agreementText" : "Я азнаёмлены з палітыкай канфідэнцыяльнасці і згаджаюся на апрацоўку маіх асабістых дадзеных у адпаведнасці з яе ўмовамі.",
-    "successMessage" : "Email successfully sent.",
-    "errorMessage" : "Error when trying to send an e-mail."
+    "successMessage": "Ліст паспяхова адпраўлены.",
+    "errorMessage": "Памылка пры спробе адправіць ліст."
   },
   "services": {
     "title": "Our Services",
@@ -113,5 +113,6 @@
       }
     }
   },
-  "loading": "Загрузка..."
+  "loading": "Загрузка...",
+  "Close": "Закрыць"
 }

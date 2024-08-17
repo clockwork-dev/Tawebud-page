@@ -60,8 +60,8 @@
     "hours": "Pn-Pt: 09:00-17:00",
     "designBy": "Projekt: ",
     "agreementText" : "Zapoznałem/Zapoznałam się z polityką prywatności i warażam zgodę na przetwarzanie moich danych osobowych zgodie z jej postanowieniami.",
-    "successMessage" : "Email successfully sent.",
-    "errorMessage" : "Error when trying to send an e-mail."
+    "successMessage": "E-mail został pomyślnie wysłany.",
+    "errorMessage": "Błąd podczas próby wysłania e-maila."
   },
   "services": {
     "title": "Our Services",
@@ -113,5 +113,7 @@
       }
     }
   },
-  "loading": "Ładowanie..."
+  "loading": "Ładowanie...",
+  "PrivacyPolicy" : "Polityka Prywatności",
+  "Close": "Zamknij"
 }

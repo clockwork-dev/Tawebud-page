@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import { Modal } from "./Modal";  // Импортируем новый компонент
 
 export const Gallery = () => {
   const [expandedWork, setExpandedWork] = useState(null);
   const { t } = useTranslation();
-
 
   const serviceKeys = Object.keys(t("services.list", { returnObjects: true }));
 
@@ -60,20 +59,14 @@ export const Gallery = () => {
         </div>
       </div>
 
-      {expandedWork && (
-        <div
-          className={`modal-overlay ${!expandedWork ? "hidden" : ""}`}
-          onClick={handleCloseModal}
-        >
-          <div
-            className="modal-content"
-            onClick={(e) => e.stopPropagation()}
-          >
+      <Modal isOpen={!!expandedWork} onClose={handleCloseModal}>
+        {expandedWork && (
+          <>
             <h3 style={{ marginBottom: "15px" }}>
               {t(`services.list.${expandedWork}.title`)}
             </h3>
             <div style={{ marginBottom: "15px" }}>
-            {t(`services.list.${expandedWork}.image`, { returnObjects: true }).map((image, index) => (
+              {t(`services.list.${expandedWork}.image`, { returnObjects: true }).map((image, index) => (
                 <img
                   key={index}
                   src={image}
@@ -90,25 +83,9 @@ export const Gallery = () => {
             <p style={{ marginBottom: "15px" }}>
               {t(`services.list.${expandedWork}.fullDescription`)}
             </p>
-            <button
-              onClick={handleCloseModal}
-              style={{
-                position: "absolute",
-                top: "10px",
-                right: "10px",
-                backgroundColor: "#0056b3",
-                color: "#fff",
-                border: "none",
-                padding: "5px 10px",
-                borderRadius: "5px",
-                cursor: "pointer",
-              }}
-            >
-              {t("services.close")}
-            </button>
-          </div>
-        </div>
-      )}
+          </>
+        )}
+      </Modal>
     </div>
   );
 };

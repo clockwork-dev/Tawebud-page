@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from 'react-i18next';
 import { LanguageSwitcher } from "./languageSwitcher";
+import  LogoTawebud  from "../logo2.png";
 export const Navigation = (props) => {
   const { t } = useTranslation();
   return (
@@ -21,7 +22,12 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            {t('Navigator.title')}
+            {/* {t('Navigator.title')} */}
+            <img 
+                src={LogoTawebud} 
+                alt="Logo" 
+                style={{ height: "52px", marginTop:"-15px"}} 
+              />
           </a>{" "}
         </div>
         <LanguageSwitcher/>

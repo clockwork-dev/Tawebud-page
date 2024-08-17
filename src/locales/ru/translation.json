@@ -60,8 +60,8 @@
     "hours": "Пн-Пт: 09:00-17:00",
     "designBy": "Дизайн от",
     "agreementText" : "Я ознакомился с политикой конфиденциальности и согласен на обработку моих персональных данных в соответствии с ее положениями.",
-"successMessage" : "Email successfully sent.",
-    "errorMessage" : "Error when trying to send an e-mail."
+    "successMessage": "Письмо успешно отправлено.",
+    "errorMessage": "Ошибка при попытке отправить письмо."
   },
   "services": {
     "title": "Our Services",
@@ -113,6 +113,8 @@
       }
     }
   },
-  "loading": "Загрузка..."
+  "loading": "Загрузка...",
+  "PrivacyPolicy" : "Polityka Prywatności",
+  "Close": "Закрыть"
   }
   

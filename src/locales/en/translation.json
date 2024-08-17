@@ -114,6 +114,8 @@
     "successMessage" : "Email successfully sent.",
     "errorMessage" : "Error when trying to send an e-mail."
   },
-  "loading": "Loading..."
-  }
+  "loading": "Loading...",
+  "PrivacyPolicy" : "Polityka Prywatności",
+  "Close" : "Close"
+}
   
