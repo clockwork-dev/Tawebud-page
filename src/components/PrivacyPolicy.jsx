@@ -16,7 +16,7 @@ export const PrivacyPolicy = () => {
       </button>
 
       <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
-      <h2>{t('PrivacyPolicy.Header')}</h2>
+      <h2>{t('PrivacyPolicy')}</h2>
   
         <p><strong>Polityka Prywatności</strong></p>
         

@@ -22,7 +22,7 @@ export const About = () => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>{t('Header.title')}</h2>
+              <h2 style={{textTransform: "capitalize", fontFamily: "Evolventa"}}>{t('Header.title')}</h2>
               <p>{t('About.paragraph')}</p>
               <div className="list-style">
                 <div className="col-lg-12 col-sm-12 col-xs-12">

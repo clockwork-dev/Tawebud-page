@@ -67,26 +67,6 @@ export const Contact = (props) => {
   const showErrorNotification = () => {
     showNotificationMessage(t("contact.errorMessage"), "error");
   };
-//  // Function to request notification permissions
-//  const requestNotificationPermission = () => {
-//   if (Notification.permission !== "granted") {
-//     Notification.requestPermission();
-//   }
-// };
-
-// // Function to show notifications
-// const showNotification = (message, type) => {
-//   if (Notification.permission === "granted") {
-//     new Notification(message, {
-//       body: type === 'success' ? t('contact.successMessage') : t('contact.errorMessage'),
-//       icon: '/path/to/icon.png', // Optional: path to an icon image
-//     });
-//   }
-// };
-
-  // React.useEffect(() => {
-  //   requestNotificationPermission();
-  // }, []);
 
   return (
     <div>
@@ -95,8 +75,7 @@ export const Contact = (props) => {
         <div className="col-md-8">
           <div className="row">
             <div className="section-title">
-            {/* <button onClick={showSuccessNotification}>Показать успешное уведомление</button>
-            <button onClick={showErrorNotification}>Показать уведомление об ошибке</button> */}
+            
               <img 
                 src={Logo} 
                 alt="Logo" 

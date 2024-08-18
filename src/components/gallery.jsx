@@ -23,12 +23,13 @@ export const Gallery = () => {
           <h2>{t("services.title")}</h2>
           <p>{t("services.description")}</p>
         </div>
-        <div className="row">
+        <div className="gall" style={{display: "flex", flexWrap: "wrap", justifyItems: "center"}}>
           {serviceKeys.length > 0 ? (
             serviceKeys.map((workKey, i) => (
               <div
                 key={workKey}
                 className="col-sm-6 col-md-4 col-lg-4"
+                
               >
                 <div
                   className="gallery-item"

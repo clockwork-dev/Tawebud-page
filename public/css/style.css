@@ -742,6 +742,11 @@ label {
     margin-left: -15px; /* Корректировка отступов для строк */
     margin-right: -15px;
   }
+ .gall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+  }
 
   .col-xs-12 {
     width: 100%; /* Элементы колонок занимают полную ширину */

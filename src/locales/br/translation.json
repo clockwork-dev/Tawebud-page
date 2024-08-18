@@ -51,9 +51,9 @@
     "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk",
     "phoneLabel": "Тэлефон",
     "phone1": "+48 512 567 625",
-    "pavel": "Павел (старшыня)",
+    "pavel": "Павел",
     "phone2": "+48 510 075 297",
-    "artiom": "Арцём (член праўлення)",
+    "artiom": "Арцём",
     "emailLabel": "Электронная пошта",
     "email": "tawebudpl@gmail.com",
     "hoursLabel": "Гадзіны працы",
@@ -64,53 +64,65 @@
     "errorMessage": "Памылка пры спробе адправіць ліст."
   },
   "services": {
-    "title": "Our Services",
-    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
-    "collapse": "Collapse",
-    "close": "Close",
+    "title": "Галерэя Нашых Паслуг",
+    "description": "Азнаёмцеся з нашай галерэяй розных будаўнічых паслуг, уключаючы фота справаздачы аб выкананых работах. Націсніце на паслугу, каб даведацца больш.",
+    "collapse": "Скласці",
+    "close": "Закрыць",
     "list": {
-      "concretePouring": {
-        "title": "Concrete Pouring",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : "./img/portfolio/concretePouring.jpg"
-      },
-      "service2": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg", "./img/portfolio/02-large.jpg"]
-      },
-      "service3": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service4": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service5": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service6": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service7": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      }
+      "tileLaying": {
+    "title": "Укладка плиткі",
+    "shortDescription": "Мы прапануем прафесійныя паслугі ўкладкі плиткі для ваннаў, кухняў і падлог.",
+    "fullDescription": "Нашы паслугі ўкладкі плиткі ўключаюць усё, ад падрыхтоўкі паверхняў да дакладнага рэжання і забеспячэння ідэальнага завяршэння. Ці то вы рамонтуюце ванную пакой, ці ўсталёўваеце новую кухню, мы гарантуем высакаякасную працу.",
+    "image": ["./img/portfolio/tileLaying1.jpg", "./img/portfolio/tileLaying2.jpg"]
+  },
+  "facadeWork": {
+    "title": "Аздабленне фасадаў, ізаляцыя, фарбоўка",
+    "shortDescription": "Мы прапануем комплексныя паслугі па аздабленні фасадаў, ізаляцыі і фарбоўцы.",
+    "fullDescription": "Нашы паслугі ўключаюць поўную рэканструкцыю і паляпшэнне фасадаў, уключаючы ізаляцыю, штукатурку і фарбоўку. Мы выкарыстоўваем высакаякасныя матэрыялы для абароны вашай будыніны і надання ёй новага выгляду.",
+    "image": ["./img/portfolio/facadeWork.jpg"]
+  },
+  "concretePouring": {
+    "title": "Заліўка бетону",
+    "shortDescription": "Мы прапануем высакаякасныя паслугі па заліўцы бетону.",
+    "fullDescription": "Нашы паслугі па заліўцы бетону ўключаюць усё, ад фундаментаў да буйнамаштабных праектаў. Мы выкарыстоўваем высакаякасныя матэрыялы і сучасныя тэхнікі для забеспячэння трывалага і гладкага пакрыцця. Ці то вам патрэбен пад'езд, паты або вялікая прамысловая падлога, у нас ёсць экспертыза для дасягнення найлепшых вынікаў.",
+    "image": ["./img/portfolio/concretePouring.jpg", "./img/portfolio/04-large.jpg", "./img/portfolio/03-large.jpg"]
+  },
+  "drywallInstallation": {
+    "title": "Устаноўка сухой штукатуркі",
+    "shortDescription": "Прафесійная ўстаноўка сухой штукатуркі для сцен і столяў.",
+    "fullDescription": "Мы прапануем комплексныя паслугі па ўстаноўцы сухой штукатуркі, уключаючы каркас, размяшчэнне сухой штукатуркі і падрыхтоўку да аздаблення. Наша дасведчаная каманда забяспечвае чыстую і роўную ўстаноўку.",
+    "image": ["./img/portfolio/drywallInstallation.jpg"]
+  },
+  "bricklaying": {
+    "title": "Цагляны кладка і рамонт мура",
+    "shortDescription": "Экспертныя паслугі па цягляннаму кладцы і рамонце мура.",
+    "fullDescription": "Нашы паслугі па цягляннай кладцы ўключаюць пабудову новых сцен, рамонт і рэпунктыроўку цэглы. Мы працуем з традыцыйнымі тэхнікамі і высакаякаснымі матэрыяламі для дасягнення трывалых і эстэтычна прыемных вынікаў.",
+    "image": ["./img/portfolio/bricklaying.jpg"]
+  },
+  "plastering": {
+    "title": "Штукатурка, выраўноўванне паверхняў, рамонт",
+    "shortDescription": "Мы прапануем паслугі па штукатурцы і рамонце сцен і столяў.",
+    "fullDescription": "Нашы паслугі па штукатурцы ўключаюць згладжванне і рамонт паверхняў для стварэння ідэальнай асновы для наступнай працы. Ці то новае будаўніцтва, ці рамонт, мы гарантуем прафесійнае выкананне.",
+    "image": ["./img/portfolio/plastering.jpg"]
+  },
+  "interiorWork": {
+    "title": "Ўнутраная работа",
+    "shortDescription": "Комплексныя паслугі па аздабленні інтэр'ераў для вашага дома або офіса.",
+    "fullDescription": "Мы прапануем комплексныя паслугі па аздабленні інтэр'ераў, уключаючы сухую штукатурку, падлогі і фарбоўку. Наша мэта – стварыць функцыянальныя і эстэтычныя інтэр'еры, якія адпавядаюць вашым патрэбам.",
+    "image": ["./img/portfolio/interiorWork.jpg"]
+  },
+  "demolition": {
+    "title": "Дэмантаж",
+    "shortDescription": "Прафесійныя паслугі дэмантажу ўсіх тыпаў будынкаў і канструкцый.",
+    "fullDescription": "Мы прапануем бяспечныя і эфектыўныя паслугі дэмантажу для любога памеру праекта. Наша каманда забяспечвае хуткі дэмантаж з мінімальнымі перашкодамі.",
+    "image": ["./img/portfolio/demolition.jpg"]
+  },
+  "puttyWork": {
+    "title": "Работы з шпаклёўкай",
+    "shortDescription": "Нанясенне шпаклёўкі на сцены і столі для стварэння гладкіх паверхняў.",
+    "fullDescription": "Нашы работы з шпаклёўкай ўключаюць нанясенне шпаклёўкі для ліквідацыі няроўнасцяў і стварэння гладкай асновы для наступнага аздаблення. Мы забяспечваем роўную і трывалую паверхню.",
+    "image": ["./img/portfolio/puttyWork.jpg"]
+  }
     }
   },
   "loading": "Загрузка...",

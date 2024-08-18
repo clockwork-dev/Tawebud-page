@@ -41,53 +41,65 @@
         "Contact": "Contact"
     },
   "services": {
-    "title": "Our Services",
-    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
+    "title": "Gallery of Our Services",
+    "description": "Explore our gallery of various construction services, complete with photo reports of our completed work. Click on a service to learn more.",
     "collapse": "Collapse",
     "close": "Close",
     "list": {
-      "concretePouring": {
-        "title": "Concrete Pouring",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg", "./img/portfolio/04-large.jpg", "./img/portfolio/03-large.jpg"]
-      },
-      "service2": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg", "./img/portfolio/02-large.jpg"]
-      },
-      "service3": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service4": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service5": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service6": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      },
-      "service7": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
-      }
+      "tileLaying": {
+      "title": "Tile Laying",
+      "shortDescription": "We offer professional tile laying services for bathrooms, kitchens, and floors.",
+      "fullDescription": "Our tile laying services cover all aspects, from surface preparation to precise cutting and ensuring a perfect finish. Whether you're renovating a bathroom or installing a new kitchen, we guarantee high-quality workmanship.",
+      "image": ["./img/portfolio/tileLaying1.jpg", "./img/portfolio/tileLaying2.jpg"]
+    },
+    "facadeWork": {
+      "title": "Facade Cladding, Insulation, Painting",
+      "shortDescription": "We provide comprehensive services for facade cladding, insulation, and painting.",
+      "fullDescription": "Our services include full renovation and improvement of facades, including insulation, plastering, and painting. We use high-quality materials to protect your building and give it a fresh appearance.",
+      "image": ["./img/portfolio/facadeWork.jpg"]
+    },
+    "concretePouring": {
+      "title": "Concrete Pouring",
+      "shortDescription": "We offer high-quality concrete pouring services.",
+      "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
+      "image": ["./img/portfolio/concretePouring.jpg", "./img/portfolio/04-large.jpg", "./img/portfolio/03-large.jpg"]
+    },
+    "drywallInstallation": {
+      "title": "Drywall Installation",
+      "shortDescription": "Professional installation of drywall for walls and ceilings.",
+      "fullDescription": "We offer comprehensive drywall installation services, including framing, drywall placement, and preparation for finishing. Our experienced team ensures a clean and even installation.",
+      "image": ["./img/portfolio/drywallInstallation.jpg"]
+    },
+    "bricklaying": {
+      "title": "Bricklaying and Masonry Repair",
+      "shortDescription": "Expert bricklaying and masonry repair services.",
+      "fullDescription": "Our bricklaying services include constructing new walls, repairs, and re-pointing of bricks. We work with traditional techniques and high-quality materials to achieve durable and aesthetically pleasing results.",
+      "image": ["./img/portfolio/bricklaying.jpg"]
+    },
+    "plastering": {
+      "title": "Plastering, Surface Leveling, Repair",
+      "shortDescription": "We provide plastering and repair services for walls and ceilings.",
+      "fullDescription": "Our plastering services include smoothing and repairing surfaces to create a perfect base for subsequent work. Whether new construction or renovation, we guarantee professional execution.",
+      "image": ["./img/portfolio/plastering.jpg"]
+    },
+    "interiorWork": {
+      "title": "Interior Work",
+      "shortDescription": "Complete interior finishing services for your home or office.",
+      "fullDescription": "We offer comprehensive interior finishing services, including drywall, flooring, and painting. Our goal is to create functional and aesthetic interiors that meet your needs.",
+      "image": ["./img/portfolio/interiorWork.jpg"]
+    },
+    "demolition": {
+      "title": "Demolition",
+      "shortDescription": "Professional demolition services for all types of buildings and structures.",
+      "fullDescription": "We provide safe and efficient demolition services for any project size. Our team ensures the demolition is carried out quickly and with minimal disruption.",
+      "image": ["./img/portfolio/demolition.jpg"]
+    },
+    "puttyWork": {
+      "title": "Putty Work",
+      "shortDescription": "Putty application for walls and ceilings to create smooth surfaces.",
+      "fullDescription": "Our putty work includes applying putty to eliminate unevenness and create a smooth base for further finishing. We ensure a uniform and durable surface.",
+      "image": ["./img/portfolio/puttyWork.jpg"]
+    }
     }
   },
   "contact": {
@@ -102,9 +114,9 @@
     "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk",
     "phoneLabel": "Phone",
     "phone1": "+48 512 567 625",
-    "pavel": "Pavel (prezes)",
+    "pavel": "Pavel",
     "phone2": "+48 510 075 297",
-    "artiom": "Artiom (członek zarządu)",
+    "artiom": "Artiom",
     "emailLabel": "Email",
     "email": "tawebudpl@gmail.com",
     "hoursLabel": "Working Hours",

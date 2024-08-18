@@ -29,7 +29,7 @@ i18n
   .use(initReactI18next) // подключаем react-i18next
   .init({
     resources,
-    lng: 'en', // язык по умолчанию
+    lng: 'de', // язык по умолчанию
     fallbackLng: 'en', // язык по умолчанию при отсутствии перевода
     interpolation: {
       escapeValue: false, // реагирует на XSS-атаки

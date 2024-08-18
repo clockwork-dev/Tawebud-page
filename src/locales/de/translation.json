@@ -40,52 +40,64 @@
         "Contact": "Kontakt"
     },
   "services": {
-    "title": "Our Services",
-    "description": "Explore the various construction services we offer. Click on a service to learn more about it.",
-    "collapse": "Collapse",
-    "close": "Close",
+    "title": "Galerie unserer Dienstleistungen",
+    "description": "Entdecken Sie unsere Galerie verschiedener Bauleistungen, einschließlich Foto-Berichten unserer abgeschlossenen Arbeiten. Klicken Sie auf eine Leistung, um mehr zu erfahren.",
+    "collapse": "Einklappen",
+    "close": "Schließen",
     "list": {
+      "tileLaying": {
+        "title": "Verlegen von Fliesen",
+        "shortDescription": "Wir bieten professionelle Fliesenverlegungsdienste für Bäder, Küchen und Böden an.",
+        "fullDescription": "Unsere Fliesenverlegungsdienste umfassen alle Aspekte, von der Vorbereitung der Oberflächen über präzises Schneiden bis hin zur Sicherstellung eines perfekten Finishs. Ob Sie ein Badezimmer renovieren oder eine neue Küche installieren, wir garantieren eine hohe Arbeitsqualität.",
+        "image": ["./img/portfolio/tileLaying1.jpg", "./img/portfolio/tileLaying2.jpg"]
+      },
+      "facadeWork": {
+        "title": "Fassade, Isolierung, Anstrich der Fassade",
+        "shortDescription": "Wir bieten umfassende Dienstleistungen für Fassadenverkleidung, Dämmung und Anstrich.",
+        "fullDescription": "Unsere Dienstleistungen umfassen die vollständige Sanierung und Verbesserung von Fassaden, einschließlich Dämmung, Verputzen und Anstrich. Wir verwenden hochwertige Materialien, um Ihr Gebäude zu schützen und ihm ein neues Aussehen zu verleihen.",
+        "image": ["./img/portfolio/facadeWork.jpg"]
+      },
       "concretePouring": {
-        "title": "Concrete Pouring",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : "./img/portfolio/concretePouring.jpg"
+        "title": "Betongießen",
+        "shortDescription": "Wir bieten hochqualitative Dienstleistungen im Bereich Betongießen.",
+        "fullDescription": "Unsere Dienstleistungen im Bereich Betongießen umfassen alles von der Fundamentarbeit bis hin zu groß angelegten Projekten. Wir verwenden hochwertige Materialien und fortschrittliche Techniken, um eine dauerhafte und glatte Oberfläche zu gewährleisten. Ob Sie eine Auffahrt, eine Terrasse oder einen großen Industrieboden benötigen, wir haben das Fachwissen, um erstklassige Ergebnisse zu liefern.",
+        "image": ["./img/portfolio/concretePouring.jpg", "./img/portfolio/04-large.jpg", "./img/portfolio/03-large.jpg"]
       },
-      "service2": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg", "./img/portfolio/02-large.jpg"]
+      "drywallInstallation": {
+        "title": "Montage von Gipskartonplatten",
+        "shortDescription": "Professionelle Installation von Gipskartonplatten für Wände und Decken.",
+        "fullDescription": "Wir bieten umfassende Dienstleistungen zur Installation von Gipskartonplatten, einschließlich Rahmenbau, Anbringen der Platten und Vorbereitung für die Endbearbeitung. Unsere erfahrenen Fachkräfte sorgen für eine saubere und gleichmäßige Installation.",
+        "image": ["./img/portfolio/drywallInstallation.jpg"]
       },
-      "service3": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
+      "bricklaying": {
+        "title": "Maurerarbeiten, Mauerwerksreparaturen",
+        "shortDescription": "Fachmännische Maurerarbeiten und Reparatur von Mauerwerk.",
+        "fullDescription": "Unsere Maurerarbeiten umfassen den Bau neuer Wände, Reparaturen und das Verfugen von Backsteinen. Wir arbeiten mit traditionellen Techniken und hochwertigen Materialien, um dauerhafte und ästhetisch ansprechende Ergebnisse zu erzielen.",
+        "image": ["./img/portfolio/bricklaying.jpg"]
       },
-      "service4": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
+      "plastering": {
+        "title": "Putzarbeiten, Glätten von Oberflächen, Reparatur von Putz",
+        "shortDescription": "Wir bieten Putzarbeiten und Reparaturdienste für Wände und Decken.",
+        "fullDescription": "Unsere Putzdienste umfassen das Glätten und Reparieren von Oberflächen, um eine perfekte Grundlage für nachfolgende Arbeiten zu schaffen. Ob Neubau oder Renovierung, wir garantieren eine professionelle Ausführung.",
+        "image": ["./img/portfolio/plastering.jpg"]
       },
-      "service5": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
+      "interiorWork": {
+        "title": "Interne Arbeiten",
+        "shortDescription": "Komplette Innenausbauarbeiten für Ihr Zuhause oder Büro.",
+        "fullDescription": "Wir bieten umfassende Dienstleistungen für den Innenausbau, einschließlich Trockenbau, Bodenbeläge und Anstricharbeiten. Unser Ziel ist es, funktionale und ästhetische Innenräume zu schaffen, die Ihren Bedürfnissen entsprechen.",
+        "image": ["./img/portfolio/interiorWork.jpg"]
       },
-      "service6": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
+      "demolition": {
+        "title": "Demontage",
+        "shortDescription": "Professionelle Demontagedienste für alle Arten von Gebäuden und Strukturen.",
+        "fullDescription": "Wir bieten sichere und effiziente Demontage- und Abbruchdienste an, unabhängig von der Größe des Projekts. Unser Team sorgt dafür, dass der Abbruch schnell und mit minimaler Störung durchgeführt wird.",
+        "image": ["./img/portfolio/demolition.jpg"]
       },
-      "service7": {
-        "title": "TextTextText",
-        "shortDescription": "We offer high-quality concrete pouring services.",
-        "fullDescription": "Our concrete pouring services include everything from foundation work to large-scale projects. We use high-quality materials and advanced techniques to ensure a durable and smooth finish. Whether you need a driveway, patio, or large industrial floor, we have the expertise to deliver top results.",
-        "image" : ["./img/portfolio/concretePouring.jpg"]
+      "puttyWork": {
+        "title": "Spachtelmasse",
+        "shortDescription": "Spachtelarbeiten für Wände und Decken, um glatte Oberflächen zu schaffen.",
+        "fullDescription": "Unsere Spachtelarbeiten umfassen das Auftragen von Spachtelmasse, um Unebenheiten zu beseitigen und eine glatte Grundlage für weitere Bearbeitung zu schaffen. Wir sorgen für eine gleichmäßige und haltbare Oberfläche.",
+        "image": ["./img/portfolio/puttyWork.jpg"]
       }
     }
   },
@@ -101,9 +113,9 @@
     "address": "ul. Bernarda Milskiego 1/30, 80-809 Gdańsk / Adresse: Straße Bernarda Milskiego 1/30, 80-890 Danzig",
     "phoneLabel": "Telefon",
     "phone1": "+48 512 567 625",
-    "pavel": "Pavel (Vorsitzender)",
+    "pavel": "Pavel",
     "phone2": "+48 510 075 297",
-    "artiom": "Artiom (Vorstandsmitglied)",
+    "artiom": "Artiom",
     "emailLabel": "E-Mail",
     "email": "tawebudpl@gmail.com",
     "hoursLabel": "Öffnungszeiten",
