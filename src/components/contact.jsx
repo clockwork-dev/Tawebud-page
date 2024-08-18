@@ -6,6 +6,7 @@ import Logo from "../logo.png"
 import { PrivacyPolicy } from "./PrivacyPolicy";
 import Notification from './Notification';
 
+
 const initialState = {
   name: "",
   email: "",
@@ -59,13 +60,6 @@ export const Contact = (props) => {
 
   const handleCloseNotification = () => {
     setShowNotification(false);
-  };
-  const showSuccessNotification = () => {
-    showNotificationMessage(t("contact.successMessage"), "success");
-  };
-
-  const showErrorNotification = () => {
-    showNotificationMessage(t("contact.errorMessage"), "error");
   };
 
   return (
@@ -196,18 +190,23 @@ export const Contact = (props) => {
             <div className="social">
               <ul>
                 <li>
-                  <a href={props.data ? props.data.facebook : "/"}>
+                  <a href="#0">
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href={props.data ? props.data.twitter : "/"}>
-                    <i className="fa fa-twitter"></i>
+                  <a href="#0">
+                    <i className="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li>
-                  <a href={props.data ? props.data.youtube : "/"}>
-                    <i className="fa fa-youtube"></i>
+                  <a href="https://t.me/arbeitinEU">
+                  <i className="fa fa-telegram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#0">
+                    <i className="fa fa-instagram"></i>
                   </a>
                 </li>
               </ul>
