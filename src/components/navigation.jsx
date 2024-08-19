@@ -56,7 +56,7 @@ export const Navigation = (props) => {
               {t('Navigator.Gallery')}
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#testimonials" className="page-scroll">
               {t('Navigator.Feedback')}
               </a>
@@ -65,7 +65,7 @@ export const Navigation = (props) => {
               <a href="#team" className="page-scroll">
               {t('Navigator.Team')}
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
               {t('Navigator.Contact')}

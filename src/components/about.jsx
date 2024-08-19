@@ -43,7 +43,7 @@ export const About = () => {
                           fontWeight: 'normal',
                         }}
                       >
-                        {/* Иконка галочки */}
+                        
                         
                         <div>
                           <h4 style={{ fontWeight: 'normal', marginBottom: '5px' }}>{item.title}</h4>

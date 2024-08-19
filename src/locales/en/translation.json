@@ -128,6 +128,42 @@
   },
   "loading": "Loading...",
   "PrivacyPolicy" : "Polityka Prywatności",
-  "Close" : "Close"
+  "Close" : "Close",
+  "firstServices": {
+    "title": "Our Services",
+    "description": "Explore the various services we offer.",
+    "list": [
+      {
+        "name": "Construction Services",
+        "text": "We offer various types of construction services at your site.",
+        "icon": "fa-hard-hat"
+      },
+      {
+        "name": "Skilled Specialists",
+        "text": "Highly competent specialists who will carry out your order.",
+        "icon": "fa-users-cog"
+      },
+      {
+        "name": "Employment Services",
+        "text": "Employment services if you are a construction master.",
+        "icon": "fa-briefcase"
+      },
+      {
+        "name": "Travel Opportunities",
+        "text": "Opportunity to visit Germany and other European countries, as our company cooperates with European firms.",
+        "icon": "fa-plane"
+      },
+      {
+        "name": "Legal Employment",
+        "text": "Legal employment for our specialists, processing all necessary documents for work in Germany (A1, EKUZ).",
+        "icon": "fa-file-signature"
+      },
+      {
+        "name": "Tools and Conditions",
+        "text": "Tools, uniforms, transport, accommodation, comfortable conditions, and well-paid wages for workers.",
+        "icon": "fa-tools"
+      }
+    ]
+  }
 }
   

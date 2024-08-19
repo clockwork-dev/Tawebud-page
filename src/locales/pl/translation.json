@@ -127,5 +127,41 @@
   },
   "loading": "Ładowanie...",
   "PrivacyPolicy" : "Polityka Prywatności",
-  "Close": "Zamknij"
+  "Close": "Zamknij",
+  "firstServices": {
+    "title": "Nasze usługi",
+    "description": "Przeglądaj różne rodzaje oferowanych przez nas usług.",
+    "list": [
+      {
+        "name": "Usługi budowlane",
+        "text": "Oferujemy różne rodzaje usług budowlanych na twojej budowie.",
+        "icon": "fa-hard-hat"
+      },
+      {
+        "name": "Wykwalifikowani specjaliści",
+        "text": "Wysoce wykwalifikowani specjaliści, którzy wykonają twoje zamówienie.",
+        "icon": "fa-users-cog"
+      },
+      {
+        "name": "Usługi zatrudnienia",
+        "text": "Usługi zatrudnienia, jeśli jesteś mistrzem budowlanym.",
+        "icon": "fa-briefcase"
+      },
+      {
+        "name": "Możliwości podróży",
+        "text": "Możliwość odwiedzenia Niemiec i innych krajów europejskich, ponieważ nasza firma współpracuje z firmami europejskimi.",
+        "icon": "fa-plane"
+      },
+      {
+        "name": "Legalne zatrudnienie",
+        "text": "Legalne zatrudnienie dla naszych specjalistów, rejestracja wszystkich niezbędnych dokumentów do pracy w Niemczech (A1, EKUZ).",
+        "icon": "fa-file-signature"
+      },
+      {
+        "name": "Narzędzia i warunki",
+        "text": "Narzędzia, mundury, transport, zakwaterowanie, komfortowe warunki i dobrze płatne wynagrodzenie dla pracowników.",
+        "icon": "fa-tools"
+      }
+    ]
+  }
 }

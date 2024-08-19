@@ -126,6 +126,42 @@
     "errorMessage": "Fehler beim Senden der E-Mail."
   },
   "loading": "Laden...",
-  "Close": "Schließen"
+  "Close": "Schließen",
+  "firstServices": {
+    "title": "Unsere Dienstleistungen",
+    "description": "Erkunden Sie die verschiedenen Arten von Dienstleistungen, die wir anbieten.",
+    "list": [
+      {
+        "name": "Baudienstleistungen",
+        "text": "Wir bieten verschiedene Arten von Baudienstleistungen auf Ihrer Baustelle an.",
+        "icon": "fa-hard-hat"
+      },
+      {
+        "name": "Qualifizierte Spezialisten",
+        "text": "Hochqualifizierte Spezialisten, die Ihren Auftrag ausführen.",
+        "icon": "fa-users-cog"
+      },
+      {
+        "name": "Arbeitsvermittlung",
+        "text": "Arbeitsvermittlungsdienste, wenn Sie Baumeister sind.",
+        "icon": "fa-briefcase"
+      },
+      {
+        "name": "Reisemöglichkeiten",
+        "text": "Möglichkeit, Deutschland und andere europäische Länder zu besuchen, da unser Unternehmen mit europäischen Firmen zusammenarbeitet.",
+        "icon": "fa-plane"
+      },
+      {
+        "name": "Legale Beschäftigung",
+        "text": "Legale Beschäftigung für unsere Spezialisten, Registrierung aller notwendigen Dokumente für die Arbeit in Deutschland (A1, EKUZ).",
+        "icon": "fa-file-signature"
+      },
+      {
+        "name": "Werkzeuge und Bedingungen",
+        "text": "Werkzeuge, Uniformen, Transport, Unterkunft, komfortable Bedingungen und gut bezahlte Löhne für die Mitarbeiter.",
+        "icon": "fa-tools"
+      }
+      ]
+    }
   }
   

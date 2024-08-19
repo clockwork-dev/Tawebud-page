@@ -164,8 +164,8 @@ export const Contact = (props) => {
               <span>
                 <i className="fa fa-phone"></i> {t("contact.phoneLabel")}
               </span>{" "}
-              {props.data ? t("contact.phone1") : t("loading")} {t("contact.pavel")}<br />
-              {props.data ? t("contact.phone2") : t("loading")} {t("contact.artiom")}
+              {t("contact.phone1")} {t("contact.pavel")}<br />
+              {t("contact.phone2")} {t("contact.artiom")}
             </p>
           </div>
           <div className="contact-item">
@@ -219,8 +219,8 @@ export const Contact = (props) => {
       <div className="container text-center">
         <p>
           &copy; 2024 {t("contact.designBy")}{" "}
-          <a href="#0" rel="nofollow">
-            Rodion Prysenko
+          <a href="https://www.linkedin.com/in/rodion-prysenko-73390a2a8/" rel="nofollow">
+            R.P.
           </a>
         </p>
       </div>
