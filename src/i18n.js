@@ -6,6 +6,7 @@ import translationRU from './locales/ru/translation.json';
 import translationPL from './locales/pl/translation.json';
 import translationBR from './locales/br/translation.json';
 import translationDE from './locales/de/translation.json';
+import LanguageDetector from 'i18next-browser-languagedetector/cjs';
 
 const resources = {
   en: {
@@ -26,13 +27,13 @@ const resources = {
 };
 
 i18n
-  .use(initReactI18next) // подключаем react-i18next
+  .use(LanguageDetector)
+  .use(initReactI18next)
   .init({
     resources,
-    lng: 'de', // язык по умолчанию
-    fallbackLng: 'en', // язык по умолчанию при отсутствии перевода
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false, // реагирует на XSS-атаки
+      escapeValue: false,
     },
   });
 
