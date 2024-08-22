@@ -37,18 +37,18 @@ export const Contact = (props) => {
     console.log(name, email, message);
 
     emailjs
-      .sendForm("service_s4pq0c7", "template_kau5z3y", e.target, "PrgIFPpcCry4p7y-b")
+      .sendForm("service_wz71fpa", "template_iwzg4ns", e.target, "9003ZtcmrBR1Ghs8P")
       .then(
         (result) => {
           console.log(result.text);
           clearState();
           showNotificationMessage(t("contact.successMessage"), "success");
-          setTimeout(() => setButtonDisabled(false), 10000); // Включаем кнопку через 10 секунд
+          setTimeout(() => setButtonDisabled(false), 10000); 
         },
         (error) => {
           console.log(error.text);
           showNotificationMessage(t("contact.errorMessage"), "error");
-          setButtonDisabled(false); // Включаем кнопку, если произошла ошибка
+          setButtonDisabled(false);
         }
       );
   };

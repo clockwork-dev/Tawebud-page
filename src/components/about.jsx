@@ -33,8 +33,8 @@ export const About = () => {
                         onMouseEnter={() => setHoveredIndex(index)}
                         onMouseLeave={() => setHoveredIndex(null)}
                         style={{
-                          display: 'flex', // Включение Flexbox
-                          alignItems: 'center', // Выравнивание по центру по вертикали
+                          display: 'flex',
+                          alignItems: 'center',
                           padding: '10px',
                           borderRadius: '8px',
                           boxShadow: hoveredIndex === index ? '0 4px 8px rgba(0, 0, 0, 0.2)' : 'none',
