@@ -10,7 +10,6 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text"> 
-                {/* Здесь мы убрали лишний div  */}
                 <h1 className="fade-in">
                   {t('Header.title')}
                 </h1>
@@ -19,7 +18,7 @@ export const Header = (props) => {
                   {t('Header.paragraph')}
                 </p>
                 <a
-                  href="#features"
+                  href="#about"
                   className="btn btn-custom btn-lg page-scroll fade-in"
                 >
                   {t('Header.btn')}
