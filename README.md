@@ -24,7 +24,7 @@ A website for the recruitment company **TAWEBUD SP. Z O.O.**, built using **Reac
 
 Running the app
 
-    npm start
+    npm run start
 
 The app will run at http://localhost:3000.
 
